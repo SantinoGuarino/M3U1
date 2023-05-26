@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakerz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Sneakerz</h2>
+        <nav class="navegacion">
+            <a class="inicio" href="index.html">Inicio</a>
+            <a class="nosotros" href="nosotros.html">Nosotros</a>
+            <a class="contacto" href="contacto.html">Contacto</a>
+            <button class="btnLogin-popup">Ingresar</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Ingresar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordarme</label>
+                    <a href="#">Olvidó su contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Ingresar</button>
+                <div class="login-register">
+                    <p>No tienes una cuenta? <a href="#" class="register-link">Regístrate</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registrarse</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Estoy de acuerdo con los términos</label>
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+                <div class="login-register">
+                    <p>Ya tienes una cuenta? <a href="#" class="login-link">Ingresa</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <main class="main-inicio">
+        <div class="contenido">
+            <h2 class="bienvenida">Bienvenido a Sneakerz</h2>
+            <br>
+            <p class="content">Aquí encontrarás todo lo que necesitas saber sobre los últimos lanzamientos de zapatillas de deporte. Nos apasiona el mundo del calzado y estamos comprometidos en brindarte información actualizada sobre los modelos más exclusivos y codiciados.</p>
+
+            <p class="content">En nuestra página, tendrás acceso a una amplia variedad de contenido sobre los sneakers más populares de marcas reconocidas a nivel mundial. Te mantendremos al tanto de las fechas de lanzamiento, los detalles técnicos, los diseños innovadores y los materiales utilizados en cada modelo. Nuestro objetivo es que estés siempre un paso adelante, para que nunca te pierdas la oportunidad de adquirir tus zapatillas favoritas.</p>
+                
+            <p class="content">Además, no solo nos enfocamos en los lanzamientos más recientes, también exploramos la historia y evolución de los sneakers a lo largo del tiempo. Nuestra sección de artículos te sumergirá en el fascinante universo de las zapatillas, desde los clásicos atemporales hasta las colaboraciones más vanguardistas.</p>
+                
+            <p class="content">Para facilitar tu experiencia, hemos creado una sección de reseñas y opiniones, donde podrás encontrar comentarios de usuarios y expertos que te ayudarán a tomar decisiones informadas antes de realizar una compra. Queremos que te sientas seguro y confiado al elegir el par de zapatillas perfecto para ti.</p>
+                
+            <p class="content">Te invitamos a explorar nuestra página y sumergirte en el apasionante mundo de los sneakers. Mantente al día con las últimas tendencias, descubre modelos exclusivos y encuentra la inspiración que necesitas para expresar tu estilo personal a través del calzado.</p>
+                
+            <p class="content">¡Gracias por visitarnos y esperamos que disfrutes de tu experiencia en nuestra página web!</p>
+        </div>
+    </main>
+    <footer><h3>Desarrollado por Santino Guarino</h3></footer>
+
+
+
+
+
+
+
+    <style>
+        .inicio {
+            background-color: #1f1101;
+            border-radius: 5px;
+        }
+
+    </style>
+    
+    <script src="scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

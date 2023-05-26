@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakerz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+</head>
+<body>
+    <header>
+        <h2 class="logo">Sneakerz</h2>
+        <nav class="navegacion">
+            <a class="inicio" href="index.html">Inicio</a>
+            <a class="nosotros" href="nosotros.html">Nosotros</a>
+            <a class="contacto" href="contacto.html">Contacto</a>
+            <button class="btnLogin-popup">Ingresar</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Ingresar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordarme</label>
+                    <a href="#">Olvidó su contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Ingresar</button>
+                <div class="login-register">
+                    <p>No tienes una cuenta? <a href="#" class="register-link">Regístrate</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registrarse</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Estoy de acuerdo con los términos</label>
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+                <div class="login-register">
+                    <p>Ya tienes una cuenta? <a href="#" class="login-link">Ingresa</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <main class="main-nosotros">
+        <div class="nosotross">
+            <p class="texto-nosotros">¡Bienvenido a Sneakerz!</p>
+            <br>
+            <p class="texto-nosotros">En Sneakerz, somos apasionados por el mundo de los sneakers y nos dedicamos a brindarte las mejores reseñas e información sobre estos icónicos zapatos deportivos. Si eres un entusiasta de los sneakers, estás en el lugar correcto.</p>
+            <br>
+            <p class="texto-nosotros">Nuestro objetivo es mantenerte al día con las últimas tendencias, lanzamientos y noticias del mundo sneaker. Nos esforzamos por ser tu fuente confiable de información, brindándote reseñas detalladas y exhaustivas de los modelos más populares y codiciados.</p>
+            <br>
+            <p class="texto-nosotros">¿Qué nos hace diferentes? En Sneakerz, no solo nos enfocamos en las características técnicas y el rendimiento de los sneakers, sino que también comprendemos el valor cultural y el impacto que estos zapatos tienen en la moda y la sociedad en general. Exploramos las historias detrás de los diseños, las colaboraciones y las inspiraciones creativas que dan vida a cada par de sneakers.</p>
+            <br>
+            <p class="texto-nosotros">Nuestro equipo de expertos en sneakers está constantemente investigando y probando nuevos lanzamientos, para brindarte análisis imparciales y opiniones sinceras. Nos enorgullece ofrecerte una visión completa de los sneakers, desde la calidad de construcción hasta la comodidad, el estilo y la versatilidad.</p>
+            <br>
+            <p class="texto-nosotros">Además de las reseñas, también te proporcionaremos guías de compra, comparativas de modelos y consejos para el cuidado y mantenimiento de tus sneakers. Queremos ayudarte a tomar decisiones informadas y sacar el máximo provecho de tus zapatillas favoritas.</p>
+            <br>
+            <p class="texto-nosotros">En Sneakerz, la comunidad es fundamental. Queremos que te sientas parte de una comunidad de amantes de los sneakers, donde puedas compartir tus opiniones, experiencias y descubrir nuevas marcas y modelos. Estamos abiertos a tus comentarios y sugerencias, ya que tu satisfacción es nuestra máxima prioridad.</p>
+            <br>
+            <p class="texto-nosotros">¡Explora nuestro sitio web y sumérgete en el fascinante mundo de los sneakers! Estamos emocionados de ser tu guía confiable en esta apasionante aventura.</p>
+            <br>
+            <p class="texto-nosotros">El equipo de Sneakerz</p>
+        </div>
+    </main>
+
+    <footer><h3>Desarrollado por Santino Guarino</h3></footer>
+
+    <style>
+        .nosotros {
+            background-color: #1f1101;
+            border-radius: 5px;
+        }
+
+    </style>
+    
+    <script src="scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

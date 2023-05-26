@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakerz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+</head>
+<body>
+    <header>
+        <h2 class="logo">Sneakerz</h2>
+        <nav class="navegacion">
+            <a class="inicio" href="index.html">Inicio</a>
+            <a class="nosotros" href="nosotros.html">Nosotros</a>
+            <a class="contacto" href="contacto.html">Contacto</a>
+            <button class="btnLogin-popup">Ingresar</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <div class="form-box login">
+            <h2>Ingresar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordarme</label>
+                    <a href="#">Olvidó su contraseña?</a>
+                </div>
+                <button type="submit" class="btn">Ingresar</button>
+                <div class="login-register">
+                    <p>No tienes una cuenta? <a href="#" class="register-link">Regístrate</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registrarse</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Nombre</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Estoy de acuerdo con los términos</label>
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+                <div class="login-register">
+                    <p>Ya tienes una cuenta? <a href="#" class="login-link">Ingresa</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <main class="main-contacto">
+        <div class="contenido-contacto">
+                <h3 class="datos"><span class="iconos"><ion-icon name="person-circle-outline"></ion-icon></span> Nombre</h3><p>Santino Guarino</p>
+                <br>
+                <h3 class="datos"><span class="iconos"><ion-icon name="mail-outline"></ion-icon></span> Email</h3><p> 21santinoguarino@gmail.com</p>
+                <br>
+                <h3 class="datos"><span class="iconos"><ion-icon name="phone-portrait-outline"></ion-icon></span> Teléfono</h3><p> +54 (9-11) 3668-4346</p>
+                <br>
+                <h3 class="datos"><span class="iconos"><ion-icon name="share-social-outline"></ion-icon></span> Redes sociales</h3><a class="instagram" href="https://www.instagram.com/santii.guarino/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+    </main>
+
+
+    <footer><h3>Desarrollado por Santino Guarino</h3></footer>
+
+    <style>
+        .contacto {
+            background-color: #1f1101;
+            border-radius: 5px;
+        }
+
+    </style>
+    
+    <script src="scripts/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
